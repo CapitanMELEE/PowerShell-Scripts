@@ -4,7 +4,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 #>
 
 # ---- Config ----
-$SkuPartNumber = "ENTERPRISEPACK"   # e.g., ENTERPRISEPACK (M365 E3), SPE_E5, O365_BUSINESS, M365_E5, etc.
+$SkuPartNumber = " M365EDU_A3_STUUSEBNFT"   # e.g., ENTERPRISEPACK (M365 E3), SPE_E5, O365_BUSINESS, M365_E5, etc.
 $Scopes = @(
   "User.Read.All",
   "Organization.Read.All"
